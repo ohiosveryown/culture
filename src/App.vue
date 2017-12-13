@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="culture">
     <img class="mt-9" src="./assets/logo.png">
     <router-view/>
   </div>
@@ -12,17 +12,19 @@
   @import './util/util.scss';
   @import './util/type.scss';
 
-  #app {
+  #culture {
     // font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: var(--sagan);
     margin-top: 60px;
-    // @include breakpoint(lg) { color: var(--gravity); }
+    @include breakpoint(lg) { color: var(--gravity); }
   }
 </style>
 
 <script>
-  export default { name: 'app' }
+  export default {
+    name: 'culture'
+  }
 </script>
