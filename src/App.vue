@@ -1,23 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img class="mt-9" src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'app'
-}
-</script>
+<style lang="scss">
+  @import './util/var.scss';
+  @import './util/reset.scss';
+  @import './util/grid.scss';
+  @import './util/util.scss';
+  @import './util/type.scss';
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: var(--sagan);
+    margin-top: 60px;
+    // @include breakpoint(lg) { color: var(--gravity); }
+  }
 </style>
+
+<script>
+  export default { name: 'app' }
+</script>
