@@ -1,0 +1,44 @@
+// scale //
+h1, h2, h3, h4, h5, h6 { font-family: var(--system); }
+
+.f-lg {
+  font: normal 2.4rem/1 var(--system);;
+  @include breakpoint(mdl) { font-size: 3.2rem; }
+}
+
+.f-md {
+  font: normal 2rem/1 var(--system);
+  @include breakpoint(mdl) { font-size: 2.4rem; }
+}
+
+.f-sm {
+  font: normal 1.6rem/1.5 var(--system);
+}
+
+p { font: 500 1.6rem/1.5 var(--system); }
+
+
+// various //
+.cloud     { color: #fff; }
+.monospace { font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Courier, monospace; }
+.serif     { font-family: Georgia, 'Times New Roman', Times, serif; }
+.italic    { font-style: italic; }
+
+.uc { text-transform: uppercase; }
+.jl { text-align: left; }
+.jr { text-align: right; }
+.jc { text-align: center; }
+.jr { text-align: justify; }
+
+
+// measures //
+.measure-1  { @include breakpoint(mdl) { max-width: 10%; } }
+.measure-2  { @include breakpoint(mdl) { max-width: 20%; } }
+.measure-3  { @include breakpoint(mdl) { max-width: 30%; } }
+.measure-4  { @include breakpoint(mdl) { max-width: 40%; } }
+.measure-5  { @include breakpoint(mdl) { max-width: 50%; } }
+.measure-6  { @include breakpoint(mdl) { max-width: 60%; } }
+.measure-7  { @include breakpoint(mdl) { max-width: 70%; } }
+.measure-8  { @include breakpoint(mdl) { max-width: 80%; } }
+.measure-85 { @include breakpoint(mdl) { max-width: 85%; } }
+.measure-9  { @include breakpoint(mdl) { max-width: 90%; } }
