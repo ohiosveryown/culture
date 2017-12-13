@@ -5,3 +5,38 @@
 
 .fade-in { opacity: 0; animation: fade-in 500ms ease forwards; }
 .fade-in-delay { opacity: 0; animation: fade-in 400ms ease forwards; animation-delay: 500ms; }
+
+
+@keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.fade-out { animation: fade-in 500ms ease forwards; }
+.fade-out-delay { animation: fade-in 400ms ease forwards; animation-delay: 500ms; }
+
+
+@keyframes coveractive {
+  0%   { transform: scaleX(0.01); }
+  50%  { transform: scaleX(1); }
+  100% { transform: scaleX(1) translateX(-50vw); }
+}
+
+.coverActive { animation: coveractive 800ms ease forwards; }
+
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+
+}
+
+.fade-enter-active {
+  //transition-delay: 300ms;
+}
+.fade-leave-active {
+  opacity: 0;
+  transition-delay: 300ms;
+}
+
+.fade-enter { opacity: 1; }

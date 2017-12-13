@@ -3,7 +3,7 @@
   <div class="">
 
     <router-link :to="{ name: 'tracey' }">
-      <div class="box"/>
+      <div class=" box"/>
     </router-link>
 
   </div>
@@ -31,6 +31,8 @@
   }
 
   .box {
+    position: relative;
+    z-index: var(--zmin);
     background: pink;
     width: 400px; height: 400px;
   }
