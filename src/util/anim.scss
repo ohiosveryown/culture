@@ -5,6 +5,7 @@
 
 .fade-in { opacity: 0; animation: fade-in 500ms ease forwards; }
 .fade-in-delay { opacity: 0; animation: fade-in 400ms ease forwards; animation-delay: 500ms; }
+.fade-in-delay-2 { opacity: 0; animation: fade-in 400ms ease forwards; animation-delay: 900ms; }
 
 
 @keyframes fade-out {

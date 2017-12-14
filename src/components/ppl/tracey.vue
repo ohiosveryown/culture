@@ -4,16 +4,21 @@
 
     <div class="cover coverActive"/>
 
-    <div class="cover-content">
-      <h1 class="f-lg">This is content</h1>
-      <div class="debug adj-one-lg">
+    <div class="cover-content fade-in-delay-2">
+      <div class="adj-one-lg">
         <h1 class="f-xl uc">loyal</h1>
       </div>
-      <div class="debug adj-one-wrapper">
+      <div class="adj-one-wrapper">
         <h3>Super</h3>
         <h3>Great</h3>
         <h3>Terrific</h3>
         <h3>Amazing</h3>
+      </div>
+      <div class="adj-main">
+        <h1 class="f-xxl">Inspiring</h1>
+      </div>
+      <div class="adj-two-lg">
+        <!-- <h1 class="f-xl uc">diana ross</h1> -->
       </div>
     </div>
 
@@ -59,7 +64,7 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 100vh;
-    background: #f5f5f8;
+    background: #E5E3E9;
     transform-origin: right;
     will-change: transform;
   }
@@ -67,23 +72,40 @@
   .cover-content {
     position: fixed;
     z-index: var(--zmax);
+    padding: 1.2rem 4rem;
     width: 50%;
   }
 
-  .adj-one-lg {
+  .adj-one-lg, .adj-two-lg {
     position: absolute;
-    right: 0;
+    right: 2.4rem;
     text-align: right;
-    text-stroke: 1px #000;
-    -webkit-text-stroke: 1px #000;
+    text-stroke: 1px var(--cloud);
+    -webkit-text-stroke: 1px var(--cloud);
     color: transparent;
+    font-size: 6.8rem;
+    line-height: 1;
+  }
+
+  .adj-two-lg {
+    position: absolute;
+    top: 56rem;
+    text-align: left;
+    font-size: 5.6rem;
   }
 
   .adj-one-wrapper {
     // width: 100%;
     position: relative;
-    top: 0rem;
+    top: 1.6rem; right: 1rem;
+    padding-top: 6.4rem;
     text-align: right;
+  }
+
+  .adj-main {
+    position: relative;
+    top: 19.2rem;
+    text-align: center;
   }
 
   figure {
