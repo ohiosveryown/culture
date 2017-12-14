@@ -57,6 +57,9 @@
 
     </main>
 
+    <!-- bg -->
+    <!-- <div class="bg"/> -->
+
   </div>
 </template>
 
@@ -64,6 +67,14 @@
 <!-- style -->
 <style lang="scss" scoped>
   @import '../util/grid.scss';
+
+  .bg {
+    position: absolute;
+    top: 0; left: 0;
+    z-index: var(--zmin);
+    width: 100vw; height: 100%;
+    background: #f5f5f8;
+  }
 
   // grid-area: row-start / col-start / row-end / col-end
   main {

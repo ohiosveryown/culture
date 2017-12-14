@@ -24,6 +24,21 @@
 .coverActive { animation: coveractive 800ms cubic-bezier(.455, .03, .515, .955) forwards; }
 
 
+@keyframes main-img-enter {
+  0%   { transform: translateX(50vw); }
+  100% { transform: translateX(0); }
+}
+
+.main-img-enter { animation: main-img-enter 600ms 500ms ease forwards; }
+
+
+
+
+
+
+
+
+//
 .fade-enter-active, .fade-leave-active {
   transition-property: opacity;
   transition-duration: .25s;
