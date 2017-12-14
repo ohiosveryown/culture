@@ -9,10 +9,10 @@
         <h1 class="f-xl uc">loyal</h1>
       </div>
       <div class="adj-one-wrapper">
-        <h3>Super</h3>
-        <h3>Great</h3>
-        <h3>Terrific</h3>
-        <h3>Amazing</h3>
+        <h3 class="f-sm">Super</h3>
+        <h3 class="f-sm">Great</h3>
+        <h3 class="f-sm">Terrific</h3>
+        <h3 class="f-sm">Amazing</h3>
       </div>
       <div class="adj-main">
         <h1 class="f-xxl">Inspiring</h1>
@@ -47,6 +47,24 @@
   @import '../../util/grid.scss';
 
   // grid-area: row-start / col-start / row-end / col-end
+
+  .f-xxl {
+    font-family: 'GT-Sectra-Fine-Bold';
+    font-size: 8rem;
+  }
+
+  .f-xl {
+    font-family: 'PxGrotesk';
+  }
+
+  .f-lg {
+    font-family: 'GT-Sectra-Fine-Bold';
+    font-size: 3.2rem;
+  }
+
+  .f-sm {
+    font-family: 'Akkurat';
+  }
 
   section {
     display: grid;
@@ -113,7 +131,7 @@
     position: relative;
     top: 0;
     z-index: var(--z4);
-    background: url('../../imgs/tracey__lg.jpg') no-repeat top center;
+    background: url('../../imgs/terris__lg.jpg') no-repeat top center;
     background-size: cover;
     height: 88vh;
     border: 24px solid var(--cloud);
