@@ -2,12 +2,10 @@
 <template>
   <div>
 
-    <div v-bind:class="{ coverActive: trigger }" class="cover coverActive"/>
+    <div class="cover coverActive"/>
 
-    <section>
-      <router-link :to="{ name: 'list' }">
-        <h2 class="fade-in-delay">Home</h2>
-      </router-link>
+    <section class="fade-in-delay">
+      <figure/>
     </section>
 
   </div>
@@ -32,11 +30,25 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 100vh;
-    background: cornflowerblue;
-    transform: scaleX(0.01);
+    background: var(--cloud);
     transform-origin: right;
-    transition: all 500ms cubic-bezier(.55, .085, .68, .53);
+    // transition: all 500ms cubic-bezier(.55, .085, .68, .53);
     will-change: transform;
+  }
+
+  // .main-img {
+  //   position: absolute;
+  //   top: 0;
+  //   z-index: var(--zmin);
+  // }
+
+  figure {
+    // position: absolute;
+    top: 0;
+    z-index: var(--z4);
+    background: url('../../imgs/tracey__lg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
   }
 
 </style>
