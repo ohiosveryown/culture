@@ -53,17 +53,6 @@
     margin: 0 auto;
    }
 
-  // .cover {
-  //   position: fixed;
-  //   top: 0; left: 0;
-  //   z-index: var(--z2);
-  //   width: 100vw; height: 100vh;
-  //   background: cornflowerblue;
-  //   transform: scaleX(0.01);
-  //   transform-origin: right;
-  //   transition: all 500ms cubic-bezier(.55, .085, .68, .53);
-  //   will-change: transform;
-  // }
 </style>
 
 
