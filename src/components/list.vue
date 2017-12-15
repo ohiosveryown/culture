@@ -7,13 +7,13 @@
     </router-link> -->
 
     <main class="fade-in-delay pt-9 pb-9">
-      <router-link :to="{ name: 'terris' }">
+      <!-- <router-link :to="{ name: 'terris' }"> -->
         <figure class="jc">
           <img src="../imgs/roy__sm.jpg" alt="">
           <figcaption class="uc">roy handy</figcaption>
           <span class="op-4">design team</span>
         </figure>
-      </router-link>
+      <!-- </router-link> -->
 
       <router-link :to="{ name: 'terris' }">
         <figure class="jc">
@@ -23,37 +23,37 @@
         </figure>
       </router-link>
 
-      <router-link :to="{ name: 'terris' }">
+      <!-- <router-link :to="{ name: 'terris' }"> -->
         <figure class="jc">
           <img src="../imgs/parker__sm.jpg" alt="">
           <figcaption class="uc">parker jennette</figcaption>
           <span class="op-4">support team</span>
         </figure>
-      </router-link>
+      <!-- </router-link> -->
 
-      <router-link :to="{ name: 'terris' }">
+      <!-- <router-link :to="{ name: 'terris' }"> -->
         <figure class="jc">
           <img src="../imgs/anne__sm.jpg" alt="">
           <figcaption class="uc">anne simone</figcaption>
           <span class="op-4">marketing team</span>
         </figure>
-      </router-link>
+      <!-- </router-link> -->
 
-      <router-link :to="{ name: 'terris' }">
+      <!-- <router-link :to="{ name: 'terris' }"> -->
         <figure class="jc">
           <img src="../imgs/david__sm.jpg" alt="">
           <figcaption class="uc">david posey</figcaption>
           <span class="op-4">development team</span>
         </figure>
-      </router-link>
+      <!-- </router-link> -->
 
-      <router-link :to="{ name: 'terris' }">
+      <!-- <router-link :to="{ name: 'terris' }"> -->
         <figure class="jc">
           <img src="../imgs/pence__sm.jpg" alt="">
           <figcaption class="uc">matthew pence</figcaption>
           <span class="op-4">design team</span>
         </figure>
-      </router-link>
+      <!-- </router-link> -->
 
     </main>
 

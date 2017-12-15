@@ -18,10 +18,10 @@
         <h1 class="f-xxl rotate">Inspiring</h1>
       </div>
       <div class="adj-two-wrapper">
-        <h3 class="f-sm">Super</h3>
-        <h3 class="f-sm">Great</h3>
-        <h3 class="f-sm">Terrific</h3>
-        <h3 class="f-sm">Amazing</h3>
+        <h3 class="f-sm">Genuine</h3>
+        <h3 class="f-sm">Tactful</h3>
+        <h3 class="f-sm">Strong Shirt Game</h3>
+        <h3 class="f-sm">Kind</h3>
       </div>
       <div class="adj-two-lg">
         <h1 class="f-xl uc">wise</h1>
@@ -119,6 +119,7 @@
 
   .adj-two-lg {
     position: absolute;
+    z-index: var(--zmin);
     top: 80rem; left: 2rem;
     text-align: left;
     font-size: 5.6rem;
