@@ -7,51 +7,51 @@
     </router-link> -->
 
     <main class="fade-in-delay pt-9 pb-9">
-      <router-link :to="{ name: 'tracey' }">
+      <router-link :to="{ name: 'terris' }">
         <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
+          <img src="../imgs/roy__sm.jpg" alt="">
+          <figcaption class="uc">roy handy</figcaption>
+          <span class="op-4">design team</span>
+        </figure>
+      </router-link>
+
+      <router-link :to="{ name: 'terris' }">
+        <figure class="jc">
+          <img src="../imgs/terris__sm.jpg" alt="">
+          <figcaption class="uc">terris johnson</figcaption>
+          <span class="op-4">design team</span>
+        </figure>
+      </router-link>
+
+      <router-link :to="{ name: 'terris' }">
+        <figure class="jc">
+          <img src="../imgs/parker__sm.jpg" alt="">
+          <figcaption class="uc">parker jennette</figcaption>
           <span class="op-4">support team</span>
         </figure>
       </router-link>
 
-      <router-link :to="{ name: 'tracey' }">
+      <router-link :to="{ name: 'terris' }">
         <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
-          <span class="op-4">support team</span>
+          <img src="../imgs/anne__sm.jpg" alt="">
+          <figcaption class="uc">anne simone</figcaption>
+          <span class="op-4">marketing team</span>
         </figure>
       </router-link>
 
-      <router-link :to="{ name: 'tracey' }">
+      <router-link :to="{ name: 'terris' }">
         <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
-          <span class="op-4">support team</span>
+          <img src="../imgs/david__sm.jpg" alt="">
+          <figcaption class="uc">david posey</figcaption>
+          <span class="op-4">development team</span>
         </figure>
       </router-link>
 
-      <router-link :to="{ name: 'tracey' }">
+      <router-link :to="{ name: 'terris' }">
         <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
-          <span class="op-4">support team</span>
-        </figure>
-      </router-link>
-
-      <router-link :to="{ name: 'tracey' }">
-        <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
-          <span class="op-4">support team</span>
-        </figure>
-      </router-link>
-
-      <router-link :to="{ name: 'tracey' }">
-        <figure class="jc">
-          <img src="../imgs/tracey__sm.jpg" alt="">
-          <figcaption class="uc">tracey brown</figcaption>
-          <span class="op-4">support team</span>
+          <img src="../imgs/pence__sm.jpg" alt="">
+          <figcaption class="uc">matthew pence</figcaption>
+          <span class="op-4">design team</span>
         </figure>
       </router-link>
 
@@ -98,14 +98,14 @@
 
   img {
     padding-bottom: 1.2rem;
-    filter:saturate(0);
+    filter:saturate(0) brightness(140%);
     transform-origin: bottom;
     transition: var(--ease_slow_very);
     will-change: transform;
   }
 
   img:hover {
-    filter:saturate(1);
+    filter:saturate(1) brightness(100%);
     transform: scale(1.04);
   }
 

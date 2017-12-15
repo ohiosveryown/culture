@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
 import list from '@/components/list'
-import tracey from '@/components/ppl/tracey'
+import terris from '@/components/ppl/terris'
 
 Vue.use(Router)
 
@@ -15,9 +15,9 @@ export default new Router({
       component: list
     },
     {
-      path: '/tracey',
-      name: 'tracey',
-      component: tracey
+      path: '/terris',
+      name: 'terris',
+      component: terris
     }
   ]
 })

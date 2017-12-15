@@ -33,7 +33,15 @@
 .main-img-enter { animation: main-img-enter 600ms 500ms ease forwards; }
 
 
+@keyframes rotate {
+  0% { transform: rotateY(0deg) rotateX(0deg); }
+  50%  { transform: rotateY(180deg) rotateX(45deg); }
+  100% { transform: rotateY(360deg) rotateX(0deg); }
+}
 
+.rotate {
+  animation: rotate 50s 500ms linear infinite;
+}
 
 
 
