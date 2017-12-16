@@ -18,3 +18,4 @@ yarn-error.log*
 .postcssrc.js
 .babelrc
 .editorconfig
+.package-lock.json
