@@ -16,6 +16,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sketch
+*.psd
 .postcssrc.js
 .babelrc
 .editorconfig
