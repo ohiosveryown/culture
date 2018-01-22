@@ -18,6 +18,7 @@ yarn-error.log*
 *.sketch
 *.psd
 *.ai
+*.ind
 
 .postcssrc.js
 .babelrc
