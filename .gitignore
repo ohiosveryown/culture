@@ -14,8 +14,6 @@ yarn-error.log*
 *.suo
 *.ntvs*
 *.njsproj
-*.mp4
-*.mov
 
 .postcssrc.js
 .babelrc
