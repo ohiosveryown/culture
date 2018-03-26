@@ -15,6 +15,7 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.jpg
+*.mov
 
 .postcssrc.js
 .babelrc
